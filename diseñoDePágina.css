@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+.casino-container {
+    background-color: #162447;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #e43f5a;
+}
+
+.btn-casino {
+    background-color: #e43f5a;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-casino:hover {
+    background-color: #b8324f;
+    color: white;
+}
+
+.form-container {
+    background-color: #1f4068;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.saldo-box {
+    background-color: #1f4068;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1.2em;
+    border: 1px solid #1b7fbd;
+    color: #fff;
+}
