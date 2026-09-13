@@ -8,6 +8,6 @@ document.getElementById('formRegistro').addEventListener('submit', function(even
         errorMsg.classList.remove('d-none'); 
     } else {
         errorMsg.classList.add('d-none');
-        alert("Registro exitoso. Redirigiendo al panel..."); 
+        alert("Registro exitoso. (Simulación completada)"); 
     }
 });
