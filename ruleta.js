@@ -7,8 +7,8 @@ document.getElementById('formDeposito').addEventListener('submit', function(e) {
     let monto = parseInt(document.getElementById('deposito').value);
     
     saldoActual += monto; 
-    textoSaldo.innerText = saldoActual; // Actualiza el número en pantalla
-    document.getElementById('deposito').value = ''; // Limpia el cajón
+    textoSaldo.innerText = saldoActual;
+    document.getElementById('deposito').value = '';
     
     mensajeExito.innerText = "¡Fichas añadidas correctamente!";
     mensajeExito.classList.remove('d-none');
